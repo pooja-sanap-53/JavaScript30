@@ -1,0 +1,31 @@
+NOTES FOR DAY 1
+
+#Introduction
+- ECMAScript is a standard on which Javascript is based. 
+- It was created to ensure that diffrenet documents on javascript are actually talking about the same lnagugae.
+- Javascript and ECMAScript are often used interchangebaly.
+
+#JavaScript Variables 
+- A variable is a container that stores a value.
+
+*** Defining a Variable ***
+    variable_name = value
+        where,  variable-name - The name of the variable: used when calling it {Required} 
+                      =       - assignment operator , defines the varibale [Optional]
+                    value     - The value of a variable {Required when using Assignment},  The default value is undefined.
+
+*** Rules for choosing variable names ***
+    - Letters, didgts, underscores and $ sign are allowed.
+    - Must begin with a $, _ or a letter.
+    - Reserved words cannot be used as a  variable name.
+    - Variable name is case sensitive.
+
+*** Types of Variable ***
+    - Integer -  32-bit number (from -2,147,483,648 to 2,147,483,647)
+    - Long - 64-bit number (from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+    - Float - 32-bit floating-point number (decimal)
+    - Double - 64-bit floating-point number
+    - Boolean - 1-bit true/false (0 or 1)
+    - NaN - Not A Number
+    - undefined 
+    - null 
