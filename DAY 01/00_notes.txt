@@ -2,7 +2,8 @@ NOTES FOR DAY 1
 
 #Introduction
 - ECMAScript is a standard on which Javascript is based. 
-- It was created to ensure that diffrenet documents on javascript are actually talking about the same lnagugae.
+- It was created to ensure that diffrenet documents on javascript are actually talking about the same langugae.
+- Javascript is a synchronous, blocking, single threaded langugae.
 - Javascript and ECMAScript are often used interchangebaly.
 
 #JavaScript Variables 
@@ -29,3 +30,11 @@ NOTES FOR DAY 1
     - NaN - Not A Number
     - undefined 
     - null 
+
+# Difference between let , var and const
+    - var is globally scoped while let and const are block scoped
+    - var can be updated and redeclared within its scope
+    - let can be updated but not redeclared
+    - const can neither be updated nor be redeclared
+    - var variables are initialized with undefined whereas let and const variables are not initialized with undefined
+    - const must be initialized during declaration unlike let and var 
