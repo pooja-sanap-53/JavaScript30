@@ -1,0 +1,93 @@
+NOTES FOR DAY 3 
+
+# EXPRESSIONS
+- A fragment of code produces a value is called an expression.
+- Every value written is literally an expression.
+
+# OPERATORS 
+
+** ARITHMETIC OPERATORS **
+    - arithmetic operators are mathematical operators 
+
+    -- Types of Arithmetic operators
+        1. Addition(+): a + b
+        2. Subtraction(-): a - b
+        3. Multiplication(*): a * b
+        4. Division(/): a / b
+        5. Modulus(%): a % b  --> gets the remainder after divison 
+        6. Exponential(**): a ** b
+
+** ASSIGNMENT OPERATORS **
+    - used to assign a value to variable 
+
+    -- Types of assignment operators
+        1. =      -->   x = y
+        2. +=     -->   x = x + y
+        3. -=     -->   x = x - y
+        3. *=     -->   x = x * y
+        3. /=     -->   x = x / y
+        3. %=     -->   x = x % y
+        3. **=    -->   x = x ** y
+
+** COMPARISON OPERATORS **
+    - used to compare two operators
+    - gives ouput as boolean value 
+
+    -- Types of comparison operators 
+        1. ==    -->  equal to
+        2. !=    -->  not equal to
+        3. ===   -->  equal value and type
+        4. !==   -->  not equal value or not equal type 
+        5. >     -->  greater than
+        6. <     -->  less than
+        7. >=    -->  greater than or equal to 
+        8. <=    -->  less than or equal to 
+
+** LOGICAL OPERATORS **
+    - gives output as boolean values 
+    
+    -- Types of logical operators
+        1. &&  -->  logical and (gets true only if the two operands are true)
+        2. ||  -->  logical or (gets true either of the operand is true)
+        3. !   -->  logical not (negates true to false and false to true)
+
+** MISCELLANEOUS OPERATORS **
+
+    1. Increment Operator 
+        - used to increase a value stored in a variable
+
+        i)  Pre increment operator (++x)
+            - value is increased first and then printed 
+       ii)  Post increment operator (x++)
+            - value is printed first and then increased
+
+    2. Decrement Operator 
+        - used to decrease a value stored in a variable
+
+        i)  Pre decrement operator (--x)
+            - value is decreased first and then printed 
+       ii)  Post decrement operator (x--)
+            - value is printed first and then decreased
+
+    3. Ternary Operator
+        - allows to write a condition
+        - evaluates a condition and executes a block of code based on the condition
+        - only operator which requires three operands 
+        Syntax:
+            condition ? expression1 : expression2
+        - If the condition is true, expression1 is executed.
+        - If the condition is false, expression2 is executed.
+
+
+# Comments 
+    - are used to add annotations, hints, or exclude some code from being executed.
+
+    1. Single Line Comment 
+        - starts with //
+        - ends with the end of line 
+
+    2. Multiline Comment 
+        - Starts with /*
+        - Ends with */
+        - Eveything between the opening /* and the closing */ is excluded from execution, even if the opening and closing are on different lines.
+
