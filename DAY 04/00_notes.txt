@@ -1,0 +1,69 @@
+NOTES FOR DAY 4
+
+#CONDITIONALS 
+- Conditional statements are used for make decisions based on different conditions. 
+- By default , statements in JavaScript script executed sequentially from top to bottom. 
+
+** TYPES OF CONDITIONALS **
+    1. If 
+        - if is to used check if a condition is true and to execute the block code.
+        Syntax :
+            if(conditon){
+                //code block
+            }
+
+    2. If , else
+        - If condition is true the first block will be executed, if not the else condition will be executed
+        Syntax :
+            if(conditon){
+                //code block
+            }
+            else{
+                //code block
+            }
+
+    3. if, else if, else
+        - makes decision based on multiple conditions,  whichever is true is executed
+        Syntax :
+            if(conditon){
+                //code block
+            }
+            else if (condition) {
+                //code block
+            }
+            else{
+                //code block
+            }
+
+    4. Switch case 
+        - alternative to if, else if, else conditionals
+        - The switch statement starts with a switch keyword followed by a parenthesis and code block.
+        - Inside the code block we will have different cases.
+        - Case block runs if the value in the switch statement parenthesis matches with the case value.
+        - The break statement is to terminate execution so the code execution does not go down after the condition is satisfied. 
+        - The default block runs if all the cases don't satisfy the condition.
+        Syntax:
+            switch(case value ){
+                case 1: 
+                    //code
+                    break;
+                case 2:
+                    //code
+                    break;
+                .
+                .
+                .
+                case n:
+                    //code
+                    break;
+
+                default : 
+                    //code
+            }
+        
+    5. Ternary Operator 
+        - evaluates a condition and executes a block of code based on the condition
+        Syntax:
+            condition ? expression1 : expression2
+        - If the condition is true, expression1 is executed.
+        - If the condition is false, expression2 is executed.
