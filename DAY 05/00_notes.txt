@@ -1,0 +1,60 @@
+NOTES FOR DAY 05
+
+#LOOPS 
+- used to perform repeititive tasks 
+- helps us automate tasks 
+
+Types of loop:
+    1. For loop         -->   loop a bloack of code no of times 
+    2. For in loop      -->   loop through the keys of an object 
+    3. For of loop      -->   loop through the values of an object 
+    4. while loop       -->   loops a block based on a specific condition 
+    5. do-while loop    -->   while loop variant which runs atleat once 
+
+1. FOR loop 
+    Syntax: 
+        for(initialization, condition, increment/decrement){
+            // code goes here
+        }
+
+2. WHILE LOOP 
+    Syntax:
+        initialization
+        while(condition){
+            //code 
+            increment/decrement;
+        }
+    
+3. DO WHILE
+    Syntax:
+        initialization
+        do{
+            //code
+            increment/decrement;
+        } while(condition)
+
+4. FOR OF 
+    - used for arrays or values of object
+    - used to iterate through an array if we are not interested in the index of each element in the array
+    Syntax:
+        for (const element of arr) {
+            // code goes here
+        }
+
+5. FOR IN 
+    - used for arrays or keys of object
+    - Syntax:
+        for (key in object){
+            //code goes here
+        }
+
+**BREAK**
+    - used to interrupt the loop 
+    - used to jump out of the loop 
+    - it ends the loop 
+
+**CONTINUE**
+    - used to skip a certain iteration and continues with next iterations
+
+
+
