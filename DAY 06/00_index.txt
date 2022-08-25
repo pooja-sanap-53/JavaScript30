@@ -1,0 +1,75 @@
+NOTES FOR DAY 06 
+
+#FUNCTIONS 
+    - a reusable block of code designed to perform a particular task 
+    Syntax:
+        function myfun(){
+            //code goes here 
+        }
+
+
+** Function Declaration **
+    Syntax:
+        //declaring a function without a parameter
+        function functionName() {
+            // code goes here
+        }
+        functionName() // calling function by its name and with parentheses
+
+
+** Function without parameter and return **
+    - if a function does not return values the value of the function is undefined
+    Syntax:
+        function functionName() {
+            // code goes here
+        }
+        functionName() 
+    
+
+** Function without parameter and with return **
+    Syntax:
+        function functionName() {
+            // code goes here
+            return return_value;
+        }
+        functionName() 
+
+
+** Function with parameter and with return **
+    - a function can have as many parameters as needed 
+    - we can pass different data types as parameter
+    Syntax:
+        function functionName(parameter1, parameter2) {
+            // code goes here
+            return return_value;
+        }
+        functionName() 
+
+
+** Function with default parameter **
+    - if we do not paas arguments while invoking the function, then the deafult value is used
+    Syntax:
+        function functionName(parameter1 = value) {
+            // code goes here
+        }
+        functionName() 
+
+
+** Anonymous Function **
+    - functions without name and are stored as a variable 
+    Syntax : 
+        const variable_name = function(){
+            //code goes here 
+        }
+
+
+** Arrow Function **
+    - is an alternative to write a function
+    - arrow function uses arrow instead of the keyword function to declare a function 
+
+    Syntax:
+        (parameter) => {
+            // code goes here 
+            return return_value;
+        }
+
