@@ -1,0 +1,138 @@
+NOTES FOR DAY 07
+
+#STRINGS
+    - Strings are used to store and manipulate text
+    - Strings are texts, which are under single , double, back-tick quote
+    - A string is a primitive data type that means we can not modify it once it is created
+
+**Template Literal**    
+    - Template literals use backticks instead of quotes to define a string
+    - with template literals, it is possible to use both single quotes and double quotes in a string 
+    - We can inject data as expressions inside a template string
+    - To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign
+
+**String Interpolation**
+    - we can insert variables directly in template literal 
+    - convinent way of string concatenation 
+    Example:
+    let name ='POOJA';
+    let a = `My name is ${name}`;
+
+**Long Literal String**
+    - A string could be a single character or paragraph or a page.
+    - if the string length is too big it does not fit in one line. 
+    - We can use the backslash character (\) at the end of each line to indicate that the string will continue on the next line.
+
+**String Concatenation**
+    - connecting two or more strings is string concatenation.
+    - we can connect strings in different ways, like using additon operator and template literals
+    - concatenation with addition operator becomes tedious and error-prone when large amount of variables or strings are need to be added
+    - so preferred way is to concatenate using template literals 
+
+**Accessing characters in a string**
+    - We can access each character in a string using its index. 
+    - In JavaScript, counting starts from 0.
+    - The first index of the string is zero, and the last index is the length of the string minus one.
+
+    
+#ESCAPE SEQUENCE CHARACHTER 
+    - A character with a backslash (\) just before it is an escape sequence or escape character
+    
+    1. \n : new line
+    2. \t : Tab
+    3. \\ : Back slash
+    4. \' : Single quote (')
+    5. \" : Double quote (")
+    6. \r : Carriage return - moves the cursoe tot he start of the line and not to the next line
+
+
+#STRNG METHODS 
+
+    1. length
+        - returns the number of characters in a string included empty space
+    
+    2. toUpperCase()
+        - method changes the string to uppercase letters
+
+    3. toLowerCase()
+        - method changes the string to lowercase letters
+    
+    4. substr()
+        - it takes two arguments, the starting index and number of characters to slice
+
+    5. substring()
+        - it takes two arguments, the starting index and the stopping index but it doesn't include the character at the stopping index
+
+    6. split()
+        - The split method splits a string at a specified place
+
+    7. trim()
+        - Removes trailing space in the beginning or the end of a string
+
+    8. includes()
+        - it takes a substring argument and it checks if substring argument exists in the string
+        - returns a boolean
+        - if a substring exist in a string, it returns true, otherwise it returns false.
+
+    9. replace()
+        - takes as a parameter the old substring and a new substring
+
+    10. charAt()
+        - takes index and it returns the value at that index
+
+    11. charCodeAt()
+        - takes index and it returns char code (ASCII number) of the value at that index
+
+    12. indexOf()
+        - takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1
+
+    13. lastIndexOf()
+        - takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1
+    
+    14. concat()
+        - it takes many substrings and joins them
+
+    15. startsWith()
+        - it takes a substring as an argument and it checks if the string starts with that specified substring
+        - it returns a boolean(true or false)
+
+    16. endsWith()
+        - it takes a substring as an argument and it checks if the string ends with that specified substring
+        - it returns a boolean(true or false)
+        
+    17. search()
+        - it takes a substring as an argument and it returns the index of the first match
+        - search value can be a string or a regular expression pattern
+
+    18. match()
+        - it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null
+        
+    19. repeat()
+        - it takes a number as argument and it returns the repeated version of the string
+
+
+#TYPECASTING 
+    -  Converting one data type to another data type
+
+    1. String to Int 
+        - can convert string number to a number
+        - any number inside a quote is a string number
+
+            a. parseInt()
+            b. Number()
+            c. Plus sign(+)   
+
+
+    2. String to Float
+        - can convert string float number to a float number
+        - any float number inside a quote is a string float number
+
+            a. parseFloat()
+            b. Number()
+            c. Plus sign(+)
+
+
+    3. Float to Int
+        - we can convert float numbers to integers
+
+            a. parseInt()
