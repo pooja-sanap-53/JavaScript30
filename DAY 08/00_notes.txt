@@ -1,0 +1,53 @@
+NOTES FOR DAY 08 
+
+# ARRAYS 
+    - Array are variables which can hold more than one value
+    - An array is a collection of different data types which are ordered and changeable(modifiable)
+    - An array allows storing duplicate elements and different data types
+    - An array can be empty, or it may have different data type values
+
+** Creating an array **
+    1. Using array constructor 
+        Syntax : 
+            let arr = new Array();
+            console.log(arr);
+
+    2. Using square brackets([])
+        Syntax :
+            const arr = [];
+            console.log(arr);
+
+** Accessing values in an array **
+    - Each value in an array has an index, and each index has a reference in a memory address
+    - Each value can be accessed by using their indexes
+    - The index of an array starts from zero, and the index of the last element is less by one from the length of the array
+
+** Finding the length of an array **
+    - we use length property to find length of an array , same as that of a string 
+
+** Modifying array element **
+    - An array is mutable(modifiable)
+    -  Once an array is created, we can modify the contents of the array elements by accessing the elements and then accessing new values 
+
+# ARRAY METHODS 
+
+    1. Array - To create an array
+    2. fill -  Fill all the array elements with a static value
+    3. concat - To concatenate two arrays.
+    4. indexOf - To check if an item exist in an array. If it exists it returns the index else it returns -1.
+    5. lastIndexOf - It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.  
+    6. includes - To check if an item exist in an array. If it exist it returns the true else it returns false.
+    7. Array.isArray - To check if the data type is an array
+    8. toString - Converts array to string
+    9. join -  It is used to join the elements of the array, the argument we passed in the join method will be joined in the array and return as a string. By default, it joins with a comma, but we can pass different string parameter which can be joined between the items.
+    10. Slice -  To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
+    11. Splice - It takes three parameters:Starting position, number of times to be removed and number of items to be added.
+    12. Push - adding item in the end. To add item to the end of an existing array we use the push method.
+    13. pop - Removing item in the end.
+    14. shift -  Removing one array element in the beginning of the array.
+    15. unshift - Adding array element in the beginning of the array.
+    16. reverse - reverse the order of an array.
+    17. sort - arrange array elements in ascending order
+
+#ARRAY OF ARRAYS (MULTIDIMENSIONAL ARRAY)
+    - Array can store different data types including an array itself.
