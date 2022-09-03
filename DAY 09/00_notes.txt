@@ -1,7 +1,82 @@
 NOTES FOR DAY 09 
 
+#SCOPE 
+    - A variable is declared at different scope.
+    - Variable scopes can be : 
+        1. Global :
+            - A globally declared variable can be accessed every where in the same file. 
+            - But the term global is relative. It can be global to the file or it can be global relative to some block of codes.
+
+        2. Local : 
+            - A variable declared as local can be accessed only in certain block of code.
+            Types of local scope :
+                1. Function scoped 
+                    - In this variable decalred in a function is only accessible within the function and not outside it.
+                    - Local variables are created when a function starts, and deleted when the function is completed.
+                2. Block scoped
+                    - Block in JavaScript is a code between two curly brackets ({})
+                    - Variables declared with 'let' and 'const' inside a { } block cannot be accessed from outside the block
+                    - Variables declared with the var keyword can NOT have block scope. Variables declared with a 'var' inside a { } block can be accessed from outside the block.
+
+            ** A variable declared with var only scoped to function but variable declared with let or const is block scope(function block, if block, loop block, etc).
+
+
 #OBJECT 
     - Everything can be an object and objects do have properties and properties have values, so an object is a key value pair.
     - The order of the key is not reserved, or there is no order.
+    - The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
 
-    
+** Creating an empty object **
+    Syntax : 
+        const emt_obj = {};
+
+** Creating an objecting with values **
+    Syntax : 
+        const object_name = {
+            property1  : value1,
+            property2  : value2
+        };
+        console.log(object_name); // {property1: value1, property2: value2}
+
+** Getting values from an object **
+    - We can access values of object using two methods:
+        1. using . followed by key or property name if the key-name is a one word
+            Syntax : 
+                console.log(object_name.property_name);
+
+        2. using square bracket and a quote
+                console.log(object_name['property_name']);
+
+** Object Methods **
+    - Objects can also have methods.
+    - Methods are actions that can be performed on objects.
+    - Methods are stored in properties as function definitions.
+    - We can use the word 'this' to access the values of different properties of the object. The 'this' keyword refers to the object itself 
+        Syntax: 
+            const object_name = {
+                property1  : value1,
+                property2  : value2,
+                func_name : fucntion(){
+                    return this.property1 + this.property2;
+                }
+            };
+            console.log(object_name.func_name()); //value1 value2
+
+
+** Some ways to access data in an object **
+    1. Object.keys      :  To get the keys or properties of an object as an array
+    2. Object.values    :  To get values of an object as an array
+    3. Object.entries   :  To get the keys and values in an array
+    4. hasOwnProperty   :  To check if a specific key or property exist in an object
+
+
+** THIS KEYWORD **
+    - In JavaScript, the 'this' keyword refers to an object, which object depends on how 'this' is being invoked (used or called).
+    - In a function definition, 'this' refers to the "owner" of the function.
+    - In an object method, 'this' refers to the object.
+    - Alone, 'this' refers to the global object.
+    - In a function, 'this' refers to the global object.
+    - In a function, in strict mode, 'this' is undefined.
+    - In an event, 'this' refers to the element that received the event.
+    - Methods like call(), apply(), and bind() can refer 'this' to any object.
+
