@@ -1,0 +1,46 @@
+NOTES FOR DAY 13 
+
+#CONSOLE OBJECT METHODS 
+    - We use console object methods to show output on the browser console.
+    - We use document.write to show output on the browser document(view port)
+    - Both methods used only for testing and debugging purposes
+
+    1. console.log() 
+        - to show output on the browser console.
+        - We can style logging message using css
+        E.g. console.log('%c30 Days Of JavaScript', 'color:green') // log output is green
+
+    2. console.warn()
+        - to give warning on browser
+
+    3. console.error() 
+        - shows an error messages
+
+    4. console.table() 
+        - display data as a table on the console
+
+    5. console.time()
+        - Starts a timer you can use to track how long an operation takes
+
+    6. console.timeEnd()
+        - used to show the time, in milliseconds, that elapsed since the timer was started
+
+    7. console.info()
+        - It displays information message on browser console
+
+    8. console.assert()
+        - writes an error message to the console if the assertion is false
+        - If the assertion is true, nothing happens
+        - The first parameter is an assertion expression
+        - If this expression is false, an Assertion failed error message will be displayed.
+
+    9. console.group() 
+        - can help to group different log groups
+
+    10. console.count()
+        - It prints the number of times the console.count() is called
+        - It takes a string label parameter
+        - It is very helpful to count the number of times a function is called
+
+    11. console.clear()
+        - cleans the browser console
