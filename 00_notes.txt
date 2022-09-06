@@ -1,0 +1,26 @@
+NOTES FOR DAY S
+
+# REGULAR EXPRESSIONS 
+    - A regular expression or RegExp is a small programming language that helps to find pattern in data
+    - A RegExp can be used to check if some pattern exists in a different data types
+    - Regular expressions can be used to perform all types of text search and text replace operations
+    - To declare a regular expression we use two forward slashes and an optional flag. The flag could be g, i, m, s, u or y
+    Syntax : 
+        /pattern/modifiers;
+
+** RegExp parameters **
+    - A regular expression takes two parameters. One required search pattern and an optional flag.
+        1. Pattern
+            - A pattern could be a text or any form of pattern which some sort of similarity
+        2. Flags
+            - Flags are optional parameters in a regular expression which determine the type of searching
+            - g: a global flag which means looking for a pattern in whole text
+            - i: case insensitive flag(it searches for both lowercase and uppercase)
+            - m: multiline 
+
+
+** Using String Methods **
+    - The search() method uses an expression to search for a match, and returns the position of the match.
+    - The replace() method returns a modified string where the pattern is replaced.
+
+
