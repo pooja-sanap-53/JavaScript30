@@ -1,0 +1,61 @@
+NOTES FOR DAY 15 
+
+#CLASSES IN JAVASCRIPT
+    - JavaScript Classes are templates for JavaScript Objects.
+    - Everything in JavScript is an object, with its properties and methods except primitives
+    - The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class
+    
+** Defining a classes **
+    - Use the keyword class to create a class
+    Syntax: 
+        class ClassName {
+            //  code goes here
+        }
+
+** Class Instantiation **
+    - instantiation class means creating an object from a class
+    - we need the keyword new and we call the name of the class after the word new
+    Syntax:
+        const objName = new ClassName();
+    
+** Class Constructor **
+    - The constructor is a builtin function which allows as to create a blueprint for our object.
+    - The constructor function starts with a keyword constructor followed by a parenthesis. 
+    - Inside the parenthesis we pass the properties of the object as parameter. 
+    - We use the this keyword to attach the constructor parameters with the class.
+    - It is executed automatically when a new object is created.
+    - It is used to initialize object properties.
+    - If we do not define a constructor, javascript will automatically define a empty constructor.
+
+** Class methods **
+    - Methods are JavaScript functions inside the class.
+    - They have same syntax as that of object methods.
+
+    1. getter
+        - The get method allow us to access value from the object.
+        - We write a get method using keyword get followed by a function. 
+        - Instead of accessing properties directly from the object we use getter to get the value.
+        - The name of the getter method cannot be the same as the name of the property
+    2. setter
+        - The setter method allow us to modify the value of certain properties. 
+        - We write a setter method using keyword set followed by a function.
+        - The name of the setter method cannot be the same as the name of the property
+
+    3. static
+        - The static keyword defines a static method for a class. 
+        - Static methods are not called on instances of the class. 
+        - Instead, they are called on the class itself. 
+        - You cannot call a static method on an object, only on an object class.
+        - These are often utility functions, such as functions to create or clone objects. 
+
+
+#INHERITANCE
+    - Using inheritance we can access all the properties and the methods of the parent class. 
+    - This reduces repetition of code. 
+    - A class created with a class inheritance inherits all the methods from another class.
+    - To create a class inheritance, use the extends keyword.
+
+** super() method **
+    - refers to the parent class.
+    - By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
