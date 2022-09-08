@@ -1,0 +1,25 @@
+NOTES FOR DAY 16 
+
+#JSON 
+    - JSON stands for JavaScript Object Notation
+    - JSON is a format for storing and transporting data.
+    - JSON is often used when data is sent from a server to a web page.
+    - JSON is a lightweight data interchange format
+    - JSON is "self-describing" and easy to understand
+    - JSON is language independent 
+    - The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text or string only
+    - Code for reading and generating JSON data can be written in any programming language.
+    - JSON is an easier-to-use alternative to XML
+    - The key of a JSON object should be with double quotes or it should be a string
+
+
+** Conversion **
+    - In JavaScript the keyword JSON has parse() and stringify() methods. 
+    - When we want to change the JSON to an object we parse the JSON using JSON.parse(). 
+        Syntax:
+            JSON.parse(json[, reviver])
+
+    - When we want to change the object to JSON we use JSON.stringify().
+        Syntax: 
+            JSON.stringify(obj, replacer, space)
+
